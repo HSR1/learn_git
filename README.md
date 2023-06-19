@@ -21,6 +21,7 @@ gitGraph
    checkout NFR
    commit
    commit
+   checkout master
    merge FRQ
    merge NFR
    commit
