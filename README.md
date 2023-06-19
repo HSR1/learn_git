@@ -7,8 +7,22 @@ print('test')
 ### Diagram
 
 ```mermaid
-sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-    Alice-)John: See you later!
+---
+title: Git diagram TZ
+---
+gitGraph
+   commit
+   branch FRQ
+   checkout FRQ
+   commit
+   commit
+   checkout master
+   branch NFR
+   checkout NFR
+   commit
+   commit
+   merge FRQ
+   merge NFR
+   commit
+   commit
 ```
